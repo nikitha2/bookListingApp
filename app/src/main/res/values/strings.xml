@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">bookListingApp</string>
+    <string name="searchHint">Search book</string>
+    <string name="noData">No books found for search </string>
+    <string name="noDatabczNoInternet">No data found! \n Please check your internet connection</string>
+
+
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="@dimen/list_item_height"
+        android:layout_height="@dimen/list_item_height"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintWidth_percent="0.1"
+        android:src="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:id="@+id/titlebook"
+        android:layout_width="0dp"
+        android:text="Book title goes here"
+        android:layout_height="@dimen/list_item_height_half"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        android:layout_marginLeft="@dimen/paddingleft"
+        android:layout_marginTop="@dimen/paddingTop"
+        app:layout_constraintBottom_toTopOf="@id/author"
+        app:layout_constraintHorizontal_weight="1"
+        android:gravity="left|bottom|center_vertical"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/author"
+        android:layout_width="0dp"
+        android:text="Author name goes here"
+        android:layout_height="@dimen/list_item_height_half1"
+        android:layout_marginLeft="@dimen/paddingleft"
+        android:layout_marginTop="@dimen/paddingbtwlines"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@id/titlebook"
+        app:layout_constraintHorizontal_weight="1"
+        android:gravity="left|top"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/txtDefaultpassword"
+        android:layout_gravity="center"
+        android:autoLink="web"
+        android:gravity="left|top"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/list_item_height_half1"
+        android:layout_marginTop="@dimen/paddingbtwlines"
+        android:layout_marginLeft="@dimen/paddingleft"
+        android:text="Read book"
+        android:layout_marginBottom="@dimen/paddingleft"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@id/author"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

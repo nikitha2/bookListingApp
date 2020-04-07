@@ -1,0 +1,15 @@
+
+
+<resources>
+    <!-- Height of each list item -->
+    <dimen name="list_item_height">110dp</dimen>
+    <dimen name="list_item_height_half">50dp</dimen>
+    <dimen name="list_item_height_half1">30dp</dimen>
+
+    <dimen name="paddingleft">32dp</dimen>
+    <dimen name="paddingTop">8dp</dimen>
+    <dimen name="paddingbtwlines">8dp</dimen>
+
+
+
+</resources>
