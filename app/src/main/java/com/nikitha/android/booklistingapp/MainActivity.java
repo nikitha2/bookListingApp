@@ -36,8 +36,8 @@ public class MainActivity extends AppCompatActivity  implements LoaderManager.Lo
         ListView listView=findViewById(R.id.ListView);
         listView.setAdapter(booksAdaptor);
 
-        SearchView simpleSearchView = (SearchView) findViewById(R.id.search_bar); // inititate a search view
-        //LoaderManager.getInstance(this).initLoader(1, input, this).forceLoad();
+        // inititate a search view
+        SearchView simpleSearchView = (SearchView) findViewById(R.id.search_bar);
         final MainActivity a = this;
 
         // perform set on query text listener event
