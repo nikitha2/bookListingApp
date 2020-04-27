@@ -2,6 +2,9 @@ bookListingApp lists a list of books it recieved from from the googleBooks API.
 
 Topics covered: http networking, adaptors, searchView and other basic concepts.
 
+Documentation:
+https://medium.com/@gullapalli.nikitha/book-listing-app-35cf3b46a202
+
 ## Installation
 1. Unzip the github project to a folder
 2. Open Android Studio. Go to File -> New -> Import Project
